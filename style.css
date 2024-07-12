@@ -1,0 +1,35 @@
+.dots {
+
+position: absolute;
+
+width: 100%;
+
+height: 100%;
+
+display: flex;
+
+justify-content: center;
+
+z-index: 10;
+
+}
+
+.dots::before {
+
+content:'';
+
+position: absolute;
+
+top: -3px;
+
+width: 15px;
+
+height: 15px;
+
+background: var(--color);
+
+border-radius: 50%;
+
+box-shadow: 0 0 20px var(--color), 0 0 60px var(--color);
+
+}
